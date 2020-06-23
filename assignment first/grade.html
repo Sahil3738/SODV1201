@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Convertor</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      body{
+        background-color: brown;
+      }
+    </style>
+      
+ </head>
+ <body>
+   <div class="grade">
+    <div class="center">
+   <h1>Marks to Grade Convertor</h1>
+    
+    <h2>Enter Your Marks</h2>
+  <label for="input">
+     <input type="text" id="input">
+  </label>
+<!-----Buttons----->
+  <label for="submit">
+    <button onclick="run()">Submit</button>
+     </label>
+
+     <label for="clear">
+      <button onclick="empty()">clear</button>
+     </label>
+     
+     <div>Your Grade is :<span id="grade"></span>
+    </div>
+
+    <div> <span id="err"></span>
+    </div>
+  </div>
+  
+  
+  <script src="./index.js"></script>
+</body>
+</html>
