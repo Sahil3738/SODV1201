@@ -1,0 +1,81 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   
+
+}
+.weather-f{
+    background-color: lightblue;
+    margin-top: 100px;
+    text-align: center;
+}
+.fweather{
+    font-size: 20px;
+}
+.ftemp{
+    font-size: 55px;
+    font-weight: bold;
+}
+/* bvc club */
+input[type=text], select {
+    width: 100%;
+    padding: 10px 15px;
+     margin: 10px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+    
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color:darkgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+   div {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+  } 
+  
+  .main{
+      display: grid;
+      grid-template-columns: 30% 40% 30%;
+      grid-template-rows: auto;
+  }
+  .head{
+      grid-column: 1/-1;
+      grid-row: 1;
+      text-align: center;
+      font-size: larger;
+      font-family: 'Lucida Sans';
+      background-color: lightsalmon;
+  }
+  .form{
+      grid-column: 2;
+      grid-row: 2;
+      background-color: lightgrey;
+      
+     }
+     a{
+       text-decoration: none;
+       color: black;
+       font-size: larger;
+       background-color: lightblue;
+      margin-left: 550px;
+       
+     }
+     a:hover{
+       color: lightslategray;
+     }
